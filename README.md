@@ -14,18 +14,18 @@ The dataset is sourced from the "Small" subsets for experimentation section of t
 ## Dataset Link:
 
 You can access the dataset here.
-**_`https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/`_**
+[](`https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/`)
 
 # Usage
 
-The provided Colab notebook (`amazon_recommender_system.ipynb`) can be used seamlessly with the dataset loaded directly from Google Drive. If you're running the notebook on Google Colab, ensure that the dataset is located at the specified path in your Google Drive: **_`/content/drive/MyDrive/amazon/Electronics.csv`_**
+The provided Colab notebook `amazon_recommender_system.ipynb` can be used seamlessly with the dataset loaded directly from Google Drive. If you're running the notebook on Google Colab, ensure that the dataset is located at the specified path in your Google Drive: [](`/content/drive/MyDrive/amazon/Electronics.csv`)
 
-#Insights
+# Insights
 * Achieved a test-set RMSE of 1.3099 with item-item filtering and 1.0754 with user-user filtering using KNN baseline with 5 neighbors
 * Achieved a test-set RMSE of 1.2844 with SVD with 10 epochs, 0.005 learning rate and 0.4 regularization, chosen using grid search
 
 
-#Citation
+# Citation
 
 *Justifying recommendations using distantly-labeled reviews and fined-grained aspects*  
 *Jianmo Ni, Jiacheng Li, Julian McAuley*  
